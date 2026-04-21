@@ -949,6 +949,26 @@ let lastHash='';
 let lastFetchAt=null;
 let lastFetchOk=false;
 let prevPinCount=-1; // -1 means we haven't loaded successfully yet
+let prevPinKeys=new Set(); // identifiers of pins we've already seen (for new-arrival detection)
+var announceQueue=[];
+var announceBusy=false;
+function announcePin(p){announceQueue.push(p);processAnnouncements()}
+function processAnnouncements(){
+if(announceBusy||!announceQueue.length)return;
+var el=document.getElementById('announcement');
+if(!el)return;
+announceBusy=true;
+var p=announceQueue.shift();
+var nameEl=el.querySelector('.ann-name');
+var locEl=el.querySelector('.ann-location');
+if(nameEl)nameEl.textContent=p.name||'Anonymous';
+if(locEl)locEl.textContent=p.raw||p.label||'';
+el.classList.add('show');
+setTimeout(function(){
+  el.classList.remove('show');
+  setTimeout(function(){announceBusy=false;processAnnouncements()},500);
+},3800);
+}
 
 const map=L.map('map',{center:[37.5,-119],zoom:6,zoomControl:true});
 var MAP_STYLES=[
@@ -1065,20 +1085,28 @@ try{
   if(hashKey!==lastHash){
     lastHash=hashKey;
     var wasFirstLoad=prevPinCount===-1;
-    var delta=matched.length-(wasFirstLoad?0:prevPinCount);
+    // Figure out which pins are newly added by diffing against the previous set.
+    var newlyAdded=[];
+    matched.forEach(function(p){
+      var key=(p.name||'')+'|'+(p.label||'')+'|'+(p.raw||'');
+      if(!prevPinKeys.has(key))newlyAdded.push(p);
+    });
     allPins=matched;
     unmatched=um;
     renderPins();
     renderUnmatched();
-    // Auto-fit on any pin set change: first load, new pin, edit, or removal.
+    // Auto-fit on any pin set change.
     if(matched.length){
-      console.log('[pindrop] auto-fit triggered (prev='+prevPinCount+' now='+matched.length+')');
+      console.log('[pindrop] auto-fit triggered (prev='+prevPinCount+' now='+matched.length+', new='+newlyAdded.length+')');
       fitToPins({duration:1.4});
     }
-    // Visible confirmation when new pins arrive (skip on very first load).
-    if(!wasFirstLoad&&delta>0){
-      showToast('+'+delta+' new pin'+(delta===1?'':'s'));
+    // Announce each newly added pin (skip first load so we don't spam popups for existing pins).
+    if(!wasFirstLoad){
+      newlyAdded.forEach(announcePin);
     }
+    // Rebuild the seen-set for next iteration.
+    prevPinKeys=new Set();
+    matched.forEach(function(p){prevPinKeys.add((p.name||'')+'|'+(p.label||'')+'|'+(p.raw||''))});
     prevPinCount=matched.length;
     if(manual)showToast('Updated — '+matched.length+' pins, '+um.length+' unmatched');
   }else if(manual){

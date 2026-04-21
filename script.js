@@ -1065,12 +1065,20 @@ try{
   if(hashKey!==lastHash){
     lastHash=hashKey;
     var wasFirstLoad=prevPinCount===-1;
-    var gainedPins=matched.length>prevPinCount&&prevPinCount>=0;
+    var delta=matched.length-(wasFirstLoad?0:prevPinCount);
     allPins=matched;
     unmatched=um;
     renderPins();
     renderUnmatched();
-    if(matched.length&&(wasFirstLoad||gainedPins)){fitToPins({duration:1.2})}
+    // Auto-fit on any pin set change: first load, new pin, edit, or removal.
+    if(matched.length){
+      console.log('[pindrop] auto-fit triggered (prev='+prevPinCount+' now='+matched.length+')');
+      fitToPins({duration:1.4});
+    }
+    // Visible confirmation when new pins arrive (skip on very first load).
+    if(!wasFirstLoad&&delta>0){
+      showToast('+'+delta+' new pin'+(delta===1?'':'s'));
+    }
     prevPinCount=matched.length;
     if(manual)showToast('Updated — '+matched.length+' pins, '+um.length+' unmatched');
   }else if(manual){

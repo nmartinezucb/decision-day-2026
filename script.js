@@ -776,11 +776,10 @@ const CAT_ORDER=['uc','csu','cc','ca_private','ivy','national','military','trade
 document.getElementById('destCount').textContent=DESTINATIONS.length+' destinations';
 
 // ════════════ SHEET CONFIG ════════════
-// The site reads this Google Sheet. Get this URL by:
-//   File → Share → Publish to web → pick the correct tab → CSV → Publish
-// Then paste the "publish" URL here. It looks like:
-//   https://docs.google.com/spreadsheets/d/e/{LONG_ID}/pub?gid={GID}&single=true&output=csv
-const SHEET_URL='https://docs.google.com/spreadsheets/d/e/2PACX-1vTeT9VrOILh5ucG4WDXKt6nGv-WWdn0yIZQbmIRw3WUbs55B2_j9szfzNmVTeHg2nmJUABusb8uKzUL/pub?gid=798736229&single=true&output=csv';
+// The site reads this Google Sheet via the gviz endpoint for near-real-time updates.
+// The sheet MUST be set to "Anyone with the link can view" (Share → General access).
+// URL format: /spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&gid={TAB_GID}
+const SHEET_URL='https://docs.google.com/spreadsheets/d/1HJIFr6pwfmUYl7ijaKN1HTexyhASIcisj1voBVhoHNw/gviz/tq?tqx=out:csv&gid=798736229';
 const REFRESH_MS=15000;
 const FUZZY_THRESHOLD=0.55;
 

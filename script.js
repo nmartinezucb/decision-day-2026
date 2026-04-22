@@ -972,8 +972,8 @@ setTimeout(function(){
 
 const map=L.map('map',{center:[37.5,-119],zoom:6,zoomControl:true});
 var MAP_STYLES=[
-{name:'Dark',url:'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',dot:'#2d2d2d',labelColor:'#e8e0d4',shadow:'0 1px 4px rgba(0,0,0,0.9),0 0 2px rgba(0,0,0,0.9)'},
 {name:'Light',url:'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',dot:'#e0e0e0',labelColor:'#1a1a2e',shadow:'0 1px 3px rgba(255,255,255,0.9),0 0 2px rgba(255,255,255,0.8)'},
+{name:'Dark',url:'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',dot:'#2d2d2d',labelColor:'#e8e0d4',shadow:'0 1px 4px rgba(0,0,0,0.9),0 0 2px rgba(0,0,0,0.9)'},
 {name:'Standard',url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',dot:'#8fbc8f',labelColor:'#1a1a2e',shadow:'0 1px 3px rgba(255,255,255,0.9),0 0 2px rgba(255,255,255,0.8)'}
 ];
 var currentStyleIdx=0;

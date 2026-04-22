@@ -744,6 +744,8 @@ const DESTINATIONS = [
 // TRADE / VOCATIONAL
 // ═══════════════════════════════════════
 {name:"IBEW Apprenticeship (Electrical)",lat:37.9535,lng:-122.0561,cat:"trade",loc:"Various"},
+{name:"Paris Beauty College", lat:37.9729008,lng:-122.0438847,cat:"trade",loc:"Various"},
+{name:"Urban Barber College", lat:37.9748695,lng:-122.0391863,cat:"trade",loc:"Various"},
 {name:"UA Apprenticeship (Plumbing/Pipefitting)",lat:37.9535,lng:-122.0561,cat:"trade",loc:"Various"},
 {name:"Carpenters Training Program",lat:37.7689,lng:-122.2249,cat:"trade",loc:"Various"},
 {name:"Cosmetology / Barber School",lat:37.9524,lng:-122.0597,cat:"trade",loc:"Various"},

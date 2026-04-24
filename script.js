@@ -223,7 +223,7 @@ const DESTINATIONS = [
 {name:"Middlebury Institute of International Studies",lat:36.5993,lng:-121.8940,cat:"ca_private",loc:"Monterey, CA"},
 
 // ═══════════════════════════════════════
-// IVY LEAGUE (8)
+// IVY LEAGUE/SEVEN SISTERS (14)
 // ═══════════════════════════════════════
 {name:"Harvard University",lat:42.3770,lng:-71.1167,cat:"ivy",loc:"Cambridge, MA"},
 {name:"Yale University",lat:41.3163,lng:-72.9223,cat:"ivy",loc:"New Haven, CT"},
@@ -233,6 +233,12 @@ const DESTINATIONS = [
 {name:"Brown University",lat:41.8268,lng:-71.4025,cat:"ivy",loc:"Providence, RI"},
 {name:"Dartmouth College",lat:43.7044,lng:-72.2887,cat:"ivy",loc:"Hanover, NH"},
 {name:"Cornell University",lat:42.4534,lng:-76.4735,cat:"ivy",loc:"Ithaca, NY"},
+{name:"Mount Holyoke College",lat:42.2556,lng:-72.5745,cat:"ivy",loc:"South Hadley, Massachusetts"},
+{name:"Vassar College",lat:41.6875,lng:-73.8958,cat:"ivy",loc:"Poughkeepsie, New York"},
+{name:"Wellesley College",lat:42.2925,lng:-71.3075,cat:"ivy",loc:"Wellesley, Massachusetts"},
+{name:"Smith College",lat:42.3175,lng:-72.6375,cat:"ivy",loc:"Northampton, Massachusetts"},
+{name:"Bryn Mawr College",lat:40.0263,lng:-75.3136,cat:"ivy",loc:"Bryn Mawr, Pennsylvania"},
+{name:"Barnard College",lat:40.8096,lng:-73.9635,cat:"ivy",loc:"New York City, New York"},
 
 // ═══════════════════════════════════════
 // TOP UNIVERSITIES BY STATE (excl. CA)

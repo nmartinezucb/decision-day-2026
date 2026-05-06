@@ -619,6 +619,7 @@ const DESTINATIONS = [
 {name:"Swarthmore College",lat:39.9030,lng:-75.3550,cat:"national",loc:"Swarthmore, PA"},
 {name:"Haverford College",lat:40.0117,lng:-75.3023,cat:"national",loc:"Haverford, PA"},
 {name:"Bucknell University",lat:40.9548,lng:-76.8843,cat:"national",loc:"Lewisburg, PA"},
+{name:"Washington and Jefferson College",lat:40.1716,lng:-80.2462,cat:"national",loc:"Washington, PA"},
 
 // -- Rhode Island --
 {name:"University of Rhode Island",lat:41.4834,lng:-71.5269,cat:"national",loc:"Kingston, RI"},
@@ -821,6 +822,7 @@ const ALIASES={
 'usc':'University of Southern California','southern cal':'University of Southern California',
 'nyu':'New York University','bu':'Boston University','bc':'Boston College',
 'cmu':'Carnegie Mellon University','carnegie mellon':'Carnegie Mellon University',
+'w&j':'Washington and Jefferson College','wandj':'Washington and Jefferson College','w and j':'Washington and Jefferson College','washington jefferson':'Washington and Jefferson College','wash jeff':'Washington and Jefferson College',
 'gatech':'Georgia Tech','georgia tech':'Georgia Tech','georgia institute of technology':'Georgia Tech',
 'umich':'University of Michigan','michigan':'University of Michigan','u of m':'University of Michigan',
 'uw':'University of Washington','u dub':'University of Washington',

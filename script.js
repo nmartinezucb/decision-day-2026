@@ -255,6 +255,11 @@ const DESTINATIONS = [
 {name:"Alabama State University",lat:32.3646,lng:-86.2955,cat:"national",loc:"Montgomery, AL"},
 {name:"Jacksonville State University",lat:33.8225,lng:-85.7617,cat:"national",loc:"Jacksonville, AL"},
 {name:"University of North Alabama",lat:34.7564,lng:-87.7035,cat:"national",loc:"Florence, AL"},
+{name:"Tuskegee University",lat:32.4297,lng:-85.7072,cat:"national",loc:"Tuskegee, AL"},
+{name:"Oakwood University",lat:34.7858,lng:-86.5793,cat:"national",loc:"Huntsville, AL"},
+{name:"Miles College",lat:33.4684,lng:-86.9183,cat:"national",loc:"Fairfield, AL"},
+{name:"Stillman College",lat:33.2106,lng:-87.5700,cat:"national",loc:"Tuscaloosa, AL"},
+{name:"Talladega College",lat:33.4348,lng:-86.1116,cat:"national",loc:"Talladega, AL"},
 
 // -- Alaska --
 {name:"University of Alaska Anchorage",lat:61.1902,lng:-149.8266,cat:"national",loc:"Anchorage, AK"},
@@ -281,6 +286,9 @@ const DESTINATIONS = [
 {name:"Ouachita Baptist University",lat:34.3559,lng:-93.0639,cat:"national",loc:"Arkadelphia, AR"},
 {name:"John Brown University",lat:36.3230,lng:-94.1328,cat:"national",loc:"Siloam Springs, AR"},
 {name:"Lyon College",lat:35.8048,lng:-91.6413,cat:"national",loc:"Batesville, AR"},
+{name:"University of Arkansas at Pine Bluff",lat:34.2245,lng:-91.9928,cat:"national",loc:"Pine Bluff, AR"},
+{name:"Philander Smith University",lat:34.7506,lng:-92.2865,cat:"national",loc:"Little Rock, AR"},
+{name:"Arkansas Baptist College",lat:34.7448,lng:-92.2790,cat:"national",loc:"Little Rock, AR"},
 
 // -- Colorado --
 {name:"University of Colorado Boulder",lat:40.0076,lng:-105.2659,cat:"national",loc:"Boulder, CO"},
@@ -323,6 +331,9 @@ const DESTINATIONS = [
 {name:"Stetson University",lat:29.0389,lng:-81.3015,cat:"national",loc:"DeLand, FL"},
 {name:"Rollins College",lat:28.5920,lng:-81.3488,cat:"national",loc:"Winter Park, FL"},
 {name:"Embry-Riddle Aeronautical (FL)",lat:29.1878,lng:-81.0470,cat:"national",loc:"Daytona Beach, FL"},
+{name:"Bethune-Cookman University",lat:29.2089,lng:-81.0420,cat:"national",loc:"Daytona Beach, FL"},
+{name:"Edward Waters University",lat:30.3492,lng:-81.6618,cat:"national",loc:"Jacksonville, FL"},
+{name:"Florida Memorial University",lat:25.9437,lng:-80.2647,cat:"national",loc:"Miami Gardens, FL"},
 
 // -- Georgia --
 {name:"University of Georgia",lat:33.9480,lng:-83.3773,cat:"national",loc:"Athens, GA"},
@@ -335,6 +346,10 @@ const DESTINATIONS = [
 {name:"Kennesaw State University",lat:34.0379,lng:-84.5815,cat:"national",loc:"Kennesaw, GA"},
 {name:"Clark Atlanta University",lat:33.7543,lng:-84.4109,cat:"national",loc:"Atlanta, GA"},
 {name:"Savannah College of Art and Design",lat:32.0776,lng:-81.0913,cat:"national",loc:"Savannah, GA"},
+{name:"Albany State University",lat:31.5485,lng:-84.1417,cat:"national",loc:"Albany, GA"},
+{name:"Fort Valley State University",lat:32.5400,lng:-83.8847,cat:"national",loc:"Fort Valley, GA"},
+{name:"Savannah State University",lat:31.9942,lng:-81.0855,cat:"national",loc:"Savannah, GA"},
+{name:"Paine College",lat:33.4717,lng:-82.0048,cat:"national",loc:"Augusta, GA"},
 
 // -- Hawaii --
 {name:"University of Hawaiʻi at Mānoa",lat:21.2969,lng:-157.8171,cat:"national",loc:"Honolulu, HI"},
@@ -408,6 +423,7 @@ const DESTINATIONS = [
 {name:"Berea College",lat:37.5684,lng:-84.2938,cat:"national",loc:"Berea, KY"},
 {name:"Transylvania University",lat:38.0546,lng:-84.4981,cat:"national",loc:"Lexington, KY"},
 {name:"Morehead State University",lat:38.1848,lng:-83.4361,cat:"national",loc:"Morehead, KY"},
+{name:"Kentucky State University",lat:38.2133,lng:-84.8633,cat:"national",loc:"Frankfort, KY"},
 
 // -- Louisiana --
 {name:"Louisiana State University",lat:30.4133,lng:-91.1800,cat:"national",loc:"Baton Rouge, LA"},
@@ -420,6 +436,8 @@ const DESTINATIONS = [
 {name:"Southern University",lat:30.5162,lng:-91.1914,cat:"national",loc:"Baton Rouge, LA"},
 {name:"Grambling State University",lat:32.5272,lng:-92.7178,cat:"national",loc:"Grambling, LA"},
 {name:"McNeese State University",lat:30.2068,lng:-93.2161,cat:"national",loc:"Lake Charles, LA"},
+{name:"Dillard University",lat:30.0033,lng:-90.0500,cat:"national",loc:"New Orleans, LA"},
+{name:"Southern University at New Orleans",lat:30.0353,lng:-90.0958,cat:"national",loc:"New Orleans, LA"},
 
 // -- Maine --
 {name:"University of Maine",lat:44.9012,lng:-68.6730,cat:"national",loc:"Orono, ME"},
@@ -440,6 +458,9 @@ const DESTINATIONS = [
 {name:"Goucher College",lat:39.4083,lng:-76.5874,cat:"national",loc:"Towson, MD"},
 {name:"Hood College",lat:39.4240,lng:-77.4185,cat:"national",loc:"Frederick, MD"},
 {name:"U.S. Naval Academy",lat:38.9822,lng:-76.4842,cat:"national",loc:"Annapolis, MD"},
+{name:"Bowie State University",lat:39.0032,lng:-76.7461,cat:"national",loc:"Bowie, MD"},
+{name:"Coppin State University",lat:39.3094,lng:-76.6620,cat:"national",loc:"Baltimore, MD"},
+{name:"University of Maryland Eastern Shore",lat:38.2070,lng:-75.6919,cat:"national",loc:"Princess Anne, MD"},
 
 // -- Massachusetts --
 {name:"MIT",lat:42.3601,lng:-71.0942,cat:"national",loc:"Cambridge, MA"},
@@ -486,6 +507,8 @@ const DESTINATIONS = [
 {name:"Alcorn State University",lat:31.8728,lng:-91.1305,cat:"national",loc:"Lorman, MS"},
 {name:"Delta State University",lat:33.7515,lng:-90.7279,cat:"national",loc:"Cleveland, MS"},
 {name:"Tougaloo College",lat:32.3687,lng:-90.1536,cat:"national",loc:"Tougaloo, MS"},
+{name:"Mississippi Valley State University",lat:33.5042,lng:-90.3200,cat:"national",loc:"Itta Bena, MS"},
+{name:"Rust College",lat:34.7681,lng:-89.4525,cat:"national",loc:"Holly Springs, MS"},
 
 // -- Missouri --
 {name:"University of Missouri",lat:38.9404,lng:-92.3277,cat:"national",loc:"Columbia, MO"},
@@ -498,6 +521,8 @@ const DESTINATIONS = [
 {name:"Drury University",lat:37.2025,lng:-93.2769,cat:"national",loc:"Springfield, MO"},
 {name:"Lindenwood University",lat:38.7869,lng:-90.6968,cat:"national",loc:"St. Charles, MO"},
 {name:"Webster University",lat:38.5776,lng:-90.3556,cat:"national",loc:"Webster Groves, MO"},
+{name:"Harris-Stowe State University",lat:38.6347,lng:-90.2305,cat:"national",loc:"St. Louis, MO"},
+{name:"Lincoln University of Missouri",lat:38.5732,lng:-92.1736,cat:"national",loc:"Jefferson City, MO"},
 
 // -- Montana --
 {name:"University of Montana",lat:46.8603,lng:-113.9852,cat:"national",loc:"Missoula, MT"},
@@ -569,6 +594,15 @@ const DESTINATIONS = [
 {name:"Davidson College",lat:35.5010,lng:-80.8435,cat:"national",loc:"Davidson, NC"},
 {name:"Appalachian State University",lat:36.2153,lng:-81.6852,cat:"national",loc:"Boone, NC"},
 {name:"North Carolina A&T State University",lat:36.0720,lng:-79.7729,cat:"national",loc:"Greensboro, NC"},
+{name:"North Carolina Central University",lat:35.9724,lng:-78.8957,cat:"national",loc:"Durham, NC"},
+{name:"Winston-Salem State University",lat:36.0786,lng:-80.2284,cat:"national",loc:"Winston-Salem, NC"},
+{name:"Fayetteville State University",lat:35.0506,lng:-78.8852,cat:"national",loc:"Fayetteville, NC"},
+{name:"Elizabeth City State University",lat:36.2849,lng:-76.2253,cat:"national",loc:"Elizabeth City, NC"},
+{name:"Johnson C. Smith University",lat:35.2371,lng:-80.8520,cat:"national",loc:"Charlotte, NC"},
+{name:"Bennett College",lat:36.0772,lng:-79.7861,cat:"national",loc:"Greensboro, NC"},
+{name:"Livingstone College",lat:35.6738,lng:-80.4711,cat:"national",loc:"Salisbury, NC"},
+{name:"Saint Augustine's University",lat:35.7913,lng:-78.6306,cat:"national",loc:"Raleigh, NC"},
+{name:"Shaw University",lat:35.7757,lng:-78.6378,cat:"national",loc:"Raleigh, NC"},
 
 // -- North Dakota --
 {name:"University of North Dakota",lat:47.9218,lng:-97.0795,cat:"national",loc:"Grand Forks, ND"},
@@ -587,6 +621,8 @@ const DESTINATIONS = [
 {name:"University of Dayton",lat:39.7404,lng:-84.1794,cat:"national",loc:"Dayton, OH"},
 {name:"Kent State University",lat:41.1459,lng:-81.3401,cat:"national",loc:"Kent, OH"},
 {name:"Bowling Green State University",lat:41.3800,lng:-83.6381,cat:"national",loc:"Bowling Green, OH"},
+{name:"Central State University",lat:39.7176,lng:-83.8836,cat:"national",loc:"Wilberforce, OH"},
+{name:"Wilberforce University",lat:39.7197,lng:-83.8833,cat:"national",loc:"Wilberforce, OH"},
 
 // -- Oklahoma --
 {name:"University of Oklahoma",lat:35.2058,lng:-97.4457,cat:"national",loc:"Norman, OK"},
@@ -595,6 +631,7 @@ const DESTINATIONS = [
 {name:"Oral Roberts University",lat:36.0601,lng:-95.9467,cat:"national",loc:"Tulsa, OK"},
 {name:"Oklahoma City University",lat:35.4805,lng:-97.5399,cat:"national",loc:"Oklahoma City, OK"},
 {name:"University of Central Oklahoma",lat:35.6552,lng:-97.4725,cat:"national",loc:"Edmond, OK"},
+{name:"Langston University",lat:35.9540,lng:-97.2553,cat:"national",loc:"Langston, OK"},
 
 // -- Oregon --
 {name:"University of Oregon",lat:44.0448,lng:-123.0726,cat:"national",loc:"Eugene, OR"},
@@ -620,6 +657,8 @@ const DESTINATIONS = [
 {name:"Haverford College",lat:40.0117,lng:-75.3023,cat:"national",loc:"Haverford, PA"},
 {name:"Bucknell University",lat:40.9548,lng:-76.8843,cat:"national",loc:"Lewisburg, PA"},
 {name:"Washington and Jefferson College",lat:40.1716,lng:-80.2462,cat:"national",loc:"Washington, PA"},
+{name:"Lincoln University (PA)",lat:39.8086,lng:-75.9303,cat:"national",loc:"Lincoln University, PA"},
+{name:"Cheyney University of Pennsylvania",lat:39.9259,lng:-75.5294,cat:"national",loc:"Cheyney, PA"},
 
 // -- Rhode Island --
 {name:"University of Rhode Island",lat:41.4834,lng:-71.5269,cat:"national",loc:"Kingston, RI"},
@@ -640,6 +679,11 @@ const DESTINATIONS = [
 {name:"Winthrop University",lat:34.9399,lng:-81.0291,cat:"national",loc:"Rock Hill, SC"},
 {name:"South Carolina State University",lat:33.4942,lng:-80.8498,cat:"national",loc:"Orangeburg, SC"},
 {name:"Bob Jones University",lat:34.8767,lng:-82.3631,cat:"national",loc:"Greenville, SC"},
+{name:"Claflin University",lat:33.5021,lng:-80.8520,cat:"national",loc:"Orangeburg, SC"},
+{name:"Benedict College",lat:34.0211,lng:-81.0231,cat:"national",loc:"Columbia, SC"},
+{name:"Allen University",lat:34.0143,lng:-81.0228,cat:"national",loc:"Columbia, SC"},
+{name:"Voorhees University",lat:33.3194,lng:-81.1467,cat:"national",loc:"Denmark, SC"},
+{name:"Morris College",lat:33.9226,lng:-80.3437,cat:"national",loc:"Sumter, SC"},
 
 // -- South Dakota --
 {name:"University of South Dakota",lat:42.7854,lng:-96.9295,cat:"national",loc:"Vermillion, SD"},
@@ -658,6 +702,9 @@ const DESTINATIONS = [
 {name:"Sewanee: University of the South",lat:35.2040,lng:-85.9214,cat:"national",loc:"Sewanee, TN"},
 {name:"East Tennessee State University",lat:36.3036,lng:-82.3664,cat:"national",loc:"Johnson City, TN"},
 {name:"Fisk University",lat:36.1682,lng:-86.8039,cat:"national",loc:"Nashville, TN"},
+{name:"Meharry Medical College",lat:36.1681,lng:-86.8047,cat:"national",loc:"Nashville, TN"},
+{name:"LeMoyne-Owen College",lat:35.1284,lng:-90.0327,cat:"national",loc:"Memphis, TN"},
+{name:"Lane College",lat:35.6263,lng:-88.8186,cat:"national",loc:"Jackson, TN"},
 
 // -- Texas --
 {name:"University of Texas at Austin",lat:30.2849,lng:-97.7341,cat:"national",loc:"Austin, TX"},
@@ -670,6 +717,13 @@ const DESTINATIONS = [
 {name:"University of North Texas",lat:33.2094,lng:-97.1526,cat:"national",loc:"Denton, TX"},
 {name:"Texas State University",lat:29.8884,lng:-97.9384,cat:"national",loc:"San Marcos, TX"},
 {name:"Trinity University",lat:29.4616,lng:-98.4823,cat:"national",loc:"San Antonio, TX"},
+{name:"Prairie View A&M University",lat:30.0917,lng:-95.9942,cat:"national",loc:"Prairie View, TX"},
+{name:"Texas Southern University",lat:29.7196,lng:-95.3608,cat:"national",loc:"Houston, TX"},
+{name:"Huston-Tillotson University",lat:30.2776,lng:-97.7202,cat:"national",loc:"Austin, TX"},
+{name:"Paul Quinn College",lat:32.6837,lng:-96.7220,cat:"national",loc:"Dallas, TX"},
+{name:"Wiley University",lat:32.5354,lng:-94.3650,cat:"national",loc:"Marshall, TX"},
+{name:"Jarvis Christian University",lat:32.5934,lng:-95.2008,cat:"national",loc:"Hawkins, TX"},
+{name:"Texas College",lat:32.3603,lng:-95.3024,cat:"national",loc:"Tyler, TX"},
 
 // -- Utah --
 {name:"University of Utah",lat:40.7649,lng:-111.8421,cat:"national",loc:"Salt Lake City, UT"},
@@ -700,6 +754,11 @@ const DESTINATIONS = [
 {name:"University of Richmond",lat:37.5760,lng:-77.5396,cat:"national",loc:"Richmond, VA"},
 {name:"Washington and Lee University",lat:37.7879,lng:-79.4447,cat:"national",loc:"Lexington, VA"},
 {name:"Howard University",lat:38.9225,lng:-77.0197,cat:"national",loc:"Washington, DC"},
+{name:"University of the District of Columbia",lat:38.9437,lng:-77.0598,cat:"national",loc:"Washington, DC"},
+{name:"Hampton University",lat:37.0224,lng:-76.3380,cat:"national",loc:"Hampton, VA"},
+{name:"Norfolk State University",lat:36.8501,lng:-76.2628,cat:"national",loc:"Norfolk, VA"},
+{name:"Virginia State University",lat:37.2398,lng:-77.4220,cat:"national",loc:"Petersburg, VA"},
+{name:"Virginia Union University",lat:37.5660,lng:-77.4514,cat:"national",loc:"Richmond, VA"},
 
 // -- Washington --
 {name:"University of Washington",lat:47.6553,lng:-122.3035,cat:"national",loc:"Seattle, WA"},
@@ -719,6 +778,8 @@ const DESTINATIONS = [
 {name:"Shepherd University",lat:39.4338,lng:-77.8064,cat:"national",loc:"Shepherdstown, WV"},
 {name:"West Virginia Wesleyan College",lat:38.9093,lng:-80.2312,cat:"national",loc:"Buckhannon, WV"},
 {name:"Bethany College (WV)",lat:40.2060,lng:-80.5643,cat:"national",loc:"Bethany, WV"},
+{name:"West Virginia State University",lat:38.3893,lng:-81.7649,cat:"national",loc:"Institute, WV"},
+{name:"Bluefield State University",lat:37.2665,lng:-81.2278,cat:"national",loc:"Bluefield, WV"},
 
 // -- Wisconsin --
 {name:"University of Wisconsin–Madison",lat:43.0766,lng:-89.4125,cat:"national",loc:"Madison, WI"},
@@ -839,7 +900,84 @@ const ALIASES={
 'marines':'U.S. Marine Corps','marine corps':'U.S. Marine Corps','usmc':'U.S. Marine Corps',
 'air force':'U.S. Air Force','usaf':'U.S. Air Force',
 'coast guard':'U.S. Coast Guard','uscg':'U.S. Coast Guard',
-'space force':'U.S. Space Force','national guard':'National Guard','u s national guard':'National Guard'
+'space force':'U.S. Space Force','national guard':'National Guard','u s national guard':'National Guard',
+'howard':'Howard University','hu':'Howard University',
+'spelman':'Spelman College',
+'morehouse':'Morehouse College',
+'hampton':'Hampton University',
+'tuskegee':'Tuskegee University',
+'famu':'Florida A&M University','florida a and m':'Florida A&M University','fla a and m':'Florida A&M University',
+'ncat':'North Carolina A&T State University','nc a and t':'North Carolina A&T State University','aggies':'North Carolina A&T State University',
+'nccu':'North Carolina Central University','nc central':'North Carolina Central University',
+'pvamu':'Prairie View A&M University','prairie view':'Prairie View A&M University',
+'tsu':'Texas Southern University','texas southern':'Texas Southern University',
+'jsu':'Jackson State University','jackson state':'Jackson State University',
+'asu (al)':'Alabama State University','alabama state':'Alabama State University',
+'aamu':'Alabama A&M University','alabama a and m':'Alabama A&M University',
+'fisk':'Fisk University',
+'tnstate':'Tennessee State University','tenn state':'Tennessee State University','tennessee state':'Tennessee State University',
+'morgan state':'Morgan State University','morgan':'Morgan State University',
+'bowie state':'Bowie State University',
+'coppin':'Coppin State University','coppin state':'Coppin State University',
+'umes':'University of Maryland Eastern Shore',
+'norfolk state':'Norfolk State University','nsu':'Norfolk State University',
+'virginia state':'Virginia State University','vsu':'Virginia State University',
+'virginia union':'Virginia Union University','vuu':'Virginia Union University',
+'sc state':'South Carolina State University','scsu':'South Carolina State University','south carolina state':'South Carolina State University',
+'claflin':'Claflin University',
+'benedict':'Benedict College',
+'savannah state':'Savannah State University',
+'albany state':'Albany State University',
+'fort valley':'Fort Valley State University','fvsu':'Fort Valley State University',
+'clark atlanta':'Clark Atlanta University','cau':'Clark Atlanta University',
+'bcu':'Bethune-Cookman University','bethune cookman':'Bethune-Cookman University','bethune-cookman':'Bethune-Cookman University',
+'edward waters':'Edward Waters University',
+'florida memorial':'Florida Memorial University',
+'dillard':'Dillard University',
+'xula':'Xavier University of Louisiana','xavier la':'Xavier University of Louisiana',
+'southern u':'Southern University','sub r':'Southern University','sub baton rouge':'Southern University','southern baton rouge':'Southern University',
+'suno':'Southern University at New Orleans',
+'grambling':'Grambling State University','gram':'Grambling State University',
+'apb':'University of Arkansas at Pine Bluff','uapb':'University of Arkansas at Pine Bluff','pine bluff':'University of Arkansas at Pine Bluff',
+'philander smith':'Philander Smith University',
+'oakwood':'Oakwood University',
+'stillman':'Stillman College',
+'talladega':'Talladega College',
+'miles college':'Miles College',
+'kentucky state':'Kentucky State University','ksu':'Kentucky State University',
+'lincoln mo':'Lincoln University of Missouri','lincoln university missouri':'Lincoln University of Missouri',
+'harris stowe':'Harris-Stowe State University','hssu':'Harris-Stowe State University',
+'mississippi valley':'Mississippi Valley State University','mvsu':'Mississippi Valley State University',
+'rust college':'Rust College',
+'tougaloo':'Tougaloo College',
+'alcorn':'Alcorn State University','alcorn state':'Alcorn State University',
+'central state':'Central State University','csu oh':'Central State University',
+'wilberforce':'Wilberforce University',
+'langston':'Langston University',
+'lincoln pa':'Lincoln University (PA)','lincoln university pa':'Lincoln University (PA)','lincoln university':'Lincoln University (PA)',
+'cheyney':'Cheyney University of Pennsylvania',
+'fayetteville state':'Fayetteville State University','fsu nc':'Fayetteville State University',
+'ecsu':'Elizabeth City State University','elizabeth city':'Elizabeth City State University',
+'jcsu':'Johnson C. Smith University','johnson c smith':'Johnson C. Smith University',
+'wssu':'Winston-Salem State University','winston salem state':'Winston-Salem State University',
+'bennett':'Bennett College',
+'livingstone':'Livingstone College',
+'st augustines':'Saint Augustine\'s University','saint augustines':'Saint Augustine\'s University',
+'shaw':'Shaw University',
+'meharry':'Meharry Medical College',
+'lemoyne owen':'LeMoyne-Owen College','lemoyne-owen':'LeMoyne-Owen College',
+'lane college':'Lane College',
+'huston tillotson':'Huston-Tillotson University',
+'paul quinn':'Paul Quinn College',
+'wiley':'Wiley University',
+'jarvis':'Jarvis Christian University',
+'wvsu':'West Virginia State University','wv state':'West Virginia State University',
+'bluefield state':'Bluefield State University',
+'udc':'University of the District of Columbia','university of dc':'University of the District of Columbia',
+'allen u':'Allen University',
+'voorhees':'Voorhees University',
+'morris college':'Morris College',
+'paine':'Paine College'
 };
 
 // ════════════ NORMALIZE & MATCH ════════════
